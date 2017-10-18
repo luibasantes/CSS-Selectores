@@ -1,7 +1,71 @@
+/*Todos los Elementos*/
+* {
+	font-family: Verdana
+}
+/*Titulo*/
+body > header > h1 {
+	color: blue ; text-align:center
+}
+/*Imagen del header con ID:cabecera*/
+header#cabecera > img {
+	width:10%; 
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*Elementos con la Clase "elemento-menu"*/
+.elemento-menu{
+	display:inline;
+	list-style-type:none;
+}
+/*Alinee al centro el elemento con el identificador “menu”*/
+#menu {
+	text-align:center;
+}
+
+/*Todas las etiquetas hijas que se encuentren en el footer, con identificador “footer”, se el
+estilo un itálica*/
+footer#footer{
+	font-style:italic;
+}
+
+/*Alinee al centro el texto del footer, con identificador “footer”*/
+footer#footer{
+	text-align:center;
+}
+
+/*Dentro de aside, al primer hermano de h3 que sea h4, aplique*/
+aside > h3 + h4 {
+	font-style: italic;
+	color:green;
+}
+
+/*Dentro de aside, a todos los elementos hermanos de h5 que sean p, aplique*/
+aside h5 ~ p {
+	font-size:8pt;
+}
+	
+/*Dentro del aside, todos los h5, cuyo atributo title termine con “small” debe mostrarlos
+subrayados*/
+
+/*Dentro del aside, todos los li cuyo valor del atributo name sea “fork”, aplique*/
+
+/*Solamente las etiquetas a que se encuentren dentro de nav, ul y li, tendrán las siguientes
+propiedades*/
+
+/*Solamente para aquellas etiquetas p con la clase “descripcion”, se activará el first-letter
+con un tamaño de 22pt y font-weight como bold.*/
+
+/*Dentro de los artículos de la zona central, centre las imágenes y redimensiónelas a un
+ancho del 15%*/
 
 
 
 
+
+
+/*Finalmente, descomente las últimas reglas de la hoja de estilos*/
 /*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
 /*section#left {
 	float:left;
